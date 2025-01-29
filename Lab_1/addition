@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main(){
+  print("Enter value of a=");
+  int a = int.parse(stdin.readLineSync()!);
+  print("value of a = ${a}");
+  print("Enter value of b=");
+  int b = int.parse(stdin.readLineSync()!);
+  print("value of b = $b");
+
+  print("Sum of $a + $b = ${a+b}");
+}
